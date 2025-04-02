@@ -5,12 +5,12 @@ import Typed from "typed.js";
 import { 
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, 
   FaDatabase, FaGitAlt, FaGithub, FaGraduationCap,
-  FaUserCircle, FaArrowRight, FaAws, FaLinux, 
+  FaArrowRight, FaAws, FaLinux, 
   FaLinkedin, FaTwitter, FaArrowUp, FaBootstrap
 } from "react-icons/fa";
 import { 
   SiNextdotjs, SiTailwindcss, SiExpress, SiMongodb, 
-  SiFirebase, SiFigma, SiJira, SiPostman, SiNginx,
+SiFigma, SiJira, SiPostman, SiNginx,
   SiVercel, SiMysql, SiTypescript, SiPython, SiPrisma,
   SiMongoose
 } from "react-icons/si";
@@ -188,7 +188,7 @@ const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.4 }}
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium tracking-wide transition-colors duration-300 mb-10"
           >
-            Let's Talk
+            Let&apos;s Talk
           </motion.a>
           
           <motion.div

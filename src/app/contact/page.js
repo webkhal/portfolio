@@ -89,7 +89,7 @@ export default function ContactPage() {
                         Get In Touch
                     </h1>
                     <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                        Connect with me through these platforms. I'm always open to new opportunities and collaborations.
+                        Connect with me through these platforms. I&apos;m always open to new opportunities and collaborations.
                     </p>
                 </motion.div>
 

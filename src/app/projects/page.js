@@ -103,11 +103,11 @@ const ProjectsPage = () => {
           
           <div className="text-left max-w-2xl mx-auto mb-15">
             <p className="text-gray-600 mb-4">
-              Over the past few years, I've had the opportunity to work on a variety of projects across different domains. 
+              Over the past few years, I&apos;ve had the opportunity to work on a variety of projects across different domains. 
               Each project has been a unique learning experience, helping me grow as a developer and problem solver.
             </p>
             <p className="text-gray-600">
-              Below you'll find a selection of my most recent works. These projects showcase my skills in mobile and web development, 
+              Below you&apos;ll find a selection of my most recent works. These projects showcase my skills in mobile and web development, 
               with technologies ranging from Flutter for cross-platform apps to modern React ecosystems for web applications.
             </p>
           </div>
