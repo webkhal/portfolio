@@ -21,7 +21,7 @@ import {
 } from 'react-icons/si';
 
 // Import your images
-import project1Image from '../../../public/images/hero-1.webp';
+import project1Image from '../../../public/images/github.png';
 import project2Image from '../../../public/images/hero-1.webp';
 import project3Image from '../../../public/images/hero-1.webp';
 import project4Image from '../../../public/images/hero-1.webp';
@@ -54,12 +54,13 @@ const ProjectsPage = () => {
 
   const projects = [
     {
-      name: 'Social Media App',
-      description: 'A social media mobile application developed using Flutter, Geist, Firebase Notifications and Hive.',
+      name: 'Github Engine',
+      description: 'A simple GitHub user search engine built with React and the GitHub API. It allows users to search for GitHub users and view their profiles.',
       image: project1Image,
-      github: '#',
-      tags: ['Flutter', 'Firebase', 'Hive'],
-      features: ['Audio', 'Video', 'User', 'Geist']
+      github: 'https://github.com/webkhal/github-engine',
+      liveDemo: 'https://github-engine-phi.vercel.app/',
+      tags: ['React'],
+      features: ['Public', 'Mobile', 'Search', 'Responsive']
     },
     {
       name: 'E-commerce App',

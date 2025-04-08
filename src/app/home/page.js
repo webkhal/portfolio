@@ -15,7 +15,7 @@ SiFigma, SiJira, SiPostman, SiNginx,
   SiMongoose
 } from "react-icons/si";
 import Image from 'next/image';
-import blogImage from "../../../public/images/hero-1.webp";
+import blogImage from "../../../public/images/blog.png";
 
 const HeroSection = () => {
   const ref = useRef(null);
