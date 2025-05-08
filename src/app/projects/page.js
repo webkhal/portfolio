@@ -103,12 +103,13 @@ const ProjectsPage = () => {
           
           <div className="text-left max-w-2xl mx-auto mb-15">
             <p className="text-gray-600 mb-4">
-              Over the past few years, I&apos;ve had the opportunity to work on a variety of projects across different domains. 
-              Each project has been a unique learning experience, helping me grow as a developer and problem solver.
+              I am a passionate developer with a keen interest in creating innovative solutions. My projects reflect my dedication to 
+              building user-friendly applications that solve real-world problems. I enjoy exploring new technologies and continuously 
+              improving my skills to deliver high-quality work.
             </p>
             <p className="text-gray-600">
-              Below you&apos;ll find a selection of my most recent works. These projects showcase my skills in mobile and web development, 
-              with technologies ranging from Flutter for cross-platform apps to modern React ecosystems for web applications.
+              Here are some of my recent projects that showcase my skills and creativity. Each project is a testament to my commitment to 
+              excellence and my ability to adapt to new challenges. I hope you find them inspiring and informative.
             </p>
           </div>
         </motion.div>
