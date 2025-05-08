@@ -199,13 +199,13 @@ const HeroSection = () => {
           >
             <p className="text-gray-500 text-sm mb-3 tracking-wider font-medium">FOLLOW ME HERE</p>
             <div className="flex justify-center space-x-5">
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://github.com/webkhal" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <FaGithub size={18} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/khalidkhan034/" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <FaLinkedin size={18} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://x.com/webkhal" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <FaTwitter size={18} />
               </a>
             </div>
