@@ -71,7 +71,7 @@ const ProjectsPage = () => {
     },
     {
       name: 'RentmyProperty',
-      description: 'react native mobile application for renting properties. It includes features like property listing, booking, and user authentication.',
+      description: 'react web and mobile application for renting properties. It includes features like property listing, booking, and user authentication.',
       image: project3Image,
       github: 'https://github.com/webkhal/Rentmyproperty',
       tags: ['React', 'Express', 'MongoDB', 'Node.js'],
