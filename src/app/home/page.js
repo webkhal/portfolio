@@ -89,21 +89,20 @@ const HeroSection = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
-  // Profile data
-  const profileInfo = {
-    description:(
+// Profile data
+const profileInfo = {
+  description: (
     <>
-    <p className="text-gray-700 leading-relaxed mb-4 font-light">
-      Certified Full Stack Developer specializing in modern web applications with a focus on performance, scalability, and user experience. I build efficient systems using JavaScript technologies across the entire stack.
-    </p>
-    <p className="text-gray-700 leading-relaxed mb-4 font-light">
-      With expertise in React, Node.js, and database management, I create clean, maintainable solutions. Currently expanding my skills into Python and AI/ML to develop more intelligent applications.
-    </p>
-    <p className="text-gray-700 leading-relaxed font-light">
-    After a 7-month break due to injury, I returned with an internship, where I strengthened my skills in SDLC and project management. Currently expanding into Python for AI/ML applications.
-    </p>
-  </>
+      <p className="text-gray-700 leading-relaxed mb-4 font-light">
+        I am a dedicated software developer with a strong foundation in React, Node.js, and database management. I take pride in crafting clean, efficient, and maintainable solutions tailored to meet diverse project needs.
+      </p>
+      <p className="text-gray-700 leading-relaxed mb-4 font-light">
+        Currently, I am expanding my expertise in Python and AI/ML to build intelligent and innovative applications. My goal is to stay at the forefront of technology and continuously enhance my skill set.
+      </p>
+      <p className="text-gray-700 leading-relaxed font-light">
+        I am passionate about learning, sharing knowledge, and collaborating with teams to solve challenging problems. Together, we can create impactful and high-quality software solutions. Feel free to connect—I look forward to working with you!
+      </p>
+    </>
 ),
     education: [
       { icon: <FaGraduationCap size={20} />, text: "Certification in Full Stack Development - The Hacking School" },
