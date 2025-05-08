@@ -22,7 +22,7 @@ import {
 
 // Import your images
 import project1Image from '../../../public/images/github.png';
-import project2Image from '../../../public/images/hero-1.webp';
+import project2Image from '../../../public/images/game.png';
 import project3Image from '../../../public/images/hero-1.webp';
 import project4Image from '../../../public/images/hero-1.webp';
 
@@ -49,8 +49,7 @@ const ProjectsPage = () => {
     'Sanity.io': <SiSanity className="text-pink-400 text-xs mr-1" />,
     'Flutter': <SiFlutter className="text-blue-400 text-xs mr-1" />,
     'Agora SDK': <SiAgora className="text-red-400 text-xs mr-1" />,
-    'default': <FiExternalLink className="text-gray-300 text-xs mr-1" />
-  };
+    'default': <FiExternalLink className="text-gray-300 text-xs mr-1" />,  };
 
   const projects = [
     {
@@ -71,12 +70,12 @@ const ProjectsPage = () => {
       features: ['Public', 'Mobile', 'Responsive', 'Game']
     },
     {
-      name: 'Video Calling App',
-      description: 'A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other faster to face.',
+      name: 'RentmyProperty',
+      description: 'react native mobile application for renting properties. It includes features like property listing, booking, and user authentication.',
       image: project3Image,
-      github: '#',
-      tags: ['Flutter', 'Agora SDK'],
-      features: ['Public', 'Mobile', 'Exact', 'Getty']
+      github: 'https://github.com/webkhal/Rentmyproperty',
+      tags: ['React', 'Express', 'MongoDB', 'Node.js'],
+      features: ['Public', 'Mobile', 'Responsive', 'Booking']
     },
     {
       name: 'Telugu Quran Web',
