@@ -63,13 +63,12 @@ const ProjectsPage = () => {
       features: ['Public', 'Mobile', 'Search', 'Responsive']
     },
     {
-      name: 'E-commerce App',
-      description: 'An e-commerce web application developed using Roentje, Material UI, Reduce, and Stripe.',
+      name: 'Number Sweeper',
+      description: 'A simple number guessing game built with HTML, CSS, and JavaScript. The game allows users to guess a number within a range and provides feedback on their guesses.',
       image: project2Image,
-      github: '#',
-      liveDemo: '#',
-      tags: ['React', 'Stripe', 'Node.js'],
-      features: ['Public', 'Mobile', 'Roentje', 'Reduce']
+      github: 'https://github.com/webkhal/lab4_game',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      features: ['Public', 'Mobile', 'Responsive', 'Game']
     },
     {
       name: 'Video Calling App',
